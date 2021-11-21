@@ -23,10 +23,12 @@ config = configparser.ConfigParser()
 config.read('config.ini')
 
 SEUIL       = float(config['config']['seuil'])
+PATH_HTML   = config['config']['PATH_HTML']
+PATH_PICKLE = config['config']['PATH_PICKLE']
 
 KEY         = "P7"
-PATH_HTML   = "/var/www/html/P7/"
-PATH_PICKLE = "./pickle/"
+#PATH_HTML   = "/var/www/html/P7/"
+#PATH_PICKLE = "./pickle/"
 
 print("seuil= "+ config['config']['seuil']) 
 
