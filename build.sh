@@ -1,1 +1,1 @@
- sudo docker build --tag python-docker .
+docker build --tag p7_api .
