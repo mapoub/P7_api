@@ -13,6 +13,4 @@ RUN pip3 install -r requirements.txt
 #EXPOSE  7878
 COPY . .
 
-#CMD [ "python3", "-m" , "flask", "run", "--host=51.158.147.66", "--port=7878"]
-#CMD [ "python3", "-m" , "flask", "run"]
 CMD [ "flask", "run"]
